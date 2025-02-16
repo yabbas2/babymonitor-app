@@ -1,13 +1,13 @@
 import { View  } from 'react-native'
 import React from 'react'
 import Permission from '@/components/Permission'
-import BluetoothStatus from '@/components/BluetoothStatus'
+import BluetoothHandler from '@/components/BluetoothHandler'
 
-export default function BleScan() {
+export default function BluetoothScan() {
     return (
         <View>
-            <Permission  />
-            <BluetoothStatus />
+            <Permission />
+            <BluetoothHandler />
         </View>
     )
 }

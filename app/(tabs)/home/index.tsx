@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <View style={styles.container}>
             <Text>Home Screen</Text>
-            <Link href="/home/ble_scan">Scan nearby BabyMonitor devices</Link>
+            <Link href="/home/bluetooth-scan">Scan nearby BabyMonitor devices</Link>
         </View>
     );
 }
